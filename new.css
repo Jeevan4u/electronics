@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: #3e3377;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3e3377;
+}
+
+#main {
+  margin: 0;
+  padding: 0;
+}
+
+#main .navbar.bg-light {
+  background-color: #1a1720 !important;
+}
+
+#main .navbar.bg-light a {
+  color: white;
+}
+
+#main .new {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#main .new .col-lg-6 {
+  padding: 5rem 2rem;
+}
+
+#main .new .left {
+  position: relative;
+  background-color: #1a1720;
+  text-align: left;
+  color: #a29bfe;
+}
+
+#main .new .left h2 {
+  padding: 0 4rem;
+  font-size: 2.725rem;
+}
+
+#main .new .left p {
+  padding: 2rem 4rem;
+  font-size: 1.125rem;
+}
+
+#main .new .left button {
+  position: relative;
+  padding: 0.5rem;
+  border: 0;
+  /* font-weight: 500; */
+  color: #a29bfe;
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  background: #1a1720;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#main .new .left button::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 20%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #a29bfe 74%);
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#main .new .left button:hover::after {
+  width: 100%;
+}
+
+#main .new .left #visual {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#main .new .blend {
+  background-color: #1a1720;
+  position: relative;
+  overflow: hidden;
+}
+
+#main .new .blend #m-mask {
+  background-image: url(./images/laptopfirst.avif);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: 50% 50%;
+  background-size: 70%;
+}
+
+#main .new .blend .mask {
+  -webkit-mask-image: url(./images/coolmask.svg);
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-image: url(/images/coolmask.svg);
+          mask-image: url(/images/coolmask.svg);
+  -webkit-mask-position: calc(100% - 200px) center;
+          mask-position: calc(100% - 200px) center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-size: 60%;
+          mask-size: 60%;
+}
+
+#lol {
+  position: relative;
+  background-color: #f1f2f6;
+}
+
+#lol .container .pos {
+  position: relative;
+  top: -3rem;
+  left: 30vw;
+  color: #3e3377;
+  display: inline-block;
+}
+
+#lol .curves {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#lol .card-comp a {
+  color: #3e3377;
+}
+
+#lol .card-comp .main-div .img-container {
+  position: relative;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#lol .card-comp .main-div .img-container img {
+  max-width: 100%;
+}
+
+#lol .card-comp .main-div .img-ovrlap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#lol .card-comp .main-div .img-ovrlap .banner-text {
+  position: absolute;
+  left: 25px;
+  top: 40px;
+}
+
+#lol .card-comp .main-div .img-ovrlap .banner-text .banner-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+#lol .card-comp .main-div .img-ovrlap .banner-text .banner-sub-title {
+  display: inline-block;
+  font-size: 1.725rem;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 10px;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#lol .card-comp .main-div .img-ovrlap .banner-text .banner-desc {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+}
+
+#lol .card-comp .main-div .img-ovrlap .banner-text .banner-button button {
+  color: #3e3377;
+  background-color: #f8f8f800;
+  border: 0;
+  border-bottom: 2px solid white;
+}
+
+#lol .card-comp:hover .img-container {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 9999;
+}
+
+#lol .card-comp:hover .banner-sub-title {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
+}
+
+#lol .title-product {
+  text-align: center;
+  color: #3e3377;
+}
+
+#lol .title-product h1 {
+  display: inline-block;
+  position: relative;
+  padding: 1.725rem;
+  z-index: 1;
+}
+
+#lol .title-product h1::before {
+  position: absolute;
+  content: '';
+  top: 25%;
+  left: 40%;
+  z-index: -1;
+  height: 50px;
+  width: 50px;
+  background-color: #2ed573;
+  border-radius: 80% 30% 40% 80%/65% 50% 35% 60%;
+}
+
+#lol .products .lists {
+  font-size: 1.325rem;
+  list-style: none;
+  width: 50%;
+  margin: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#lol .products .lists a {
+  padding: .525rem;
+  text-decoration: none;
+  color: #3e3377;
+}
+
+#lol .products .lists a:focus {
+  background-color: #2ed573;
+  border-radius: 8px;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder {
+  position: relative;
+  background-image: url(./images/smart-watch.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 240px;
+  max-width: 70%;
+  margin: auto;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/earbud.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder .span-wrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+  right: 0;
+}
+
+#lol .products .main-products .card-wrapper .card-content-wrapper {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+#lol .products .main-products .card-wrapper .card-content-wrapper .card-contents h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+#lol .products .main-products .card-wrapper .card-content-wrapper .card-contents p {
+  font-size: 1rem;
+}
+
+#lol .products .main-products .card-wrapper .card-content-wrapper .card-contents a.cart {
+  text-align: center;
+  background-color: #2ed573;
+  padding: .525rem;
+  font-size: 1rem;
+  font-weight: 500;
+  -webkit-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+#lol .products .main-products .card-wrapper .card-content-wrapper .card-contents a.cart:hover {
+  background-color: #1a1720;
+  color: #a29bfe;
+}
+
+#lol .products .main-products .card-wrapper:hover .card-img-holder::before {
+  opacity: 1;
+}
+/*# sourceMappingURL=new.css.map */

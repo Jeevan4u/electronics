@@ -1,0 +1,395 @@
+
+    $primary:#a29bfe;
+    $seconday:#dfe6e9;
+    $main:#1a1720;
+    $text:rgb(62, 51, 119);
+    $span:#e7f26f;
+    $button:#2ed573;
+
+
+body{
+    // background-color: #1a1720;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+a{
+    color: $text;
+    text-decoration: none;
+    
+    &:hover{
+        color: $text;
+    }
+}
+
+#main{
+    margin: 0;
+    padding: 0; 
+    // padding-bottom: 50px;
+    .navbar.bg-light{
+       background-color: $main !important;
+        // background: #00C9FF;  /* fallback for old browsers */
+        // background: -webkit-linear-gradient(to left, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+        //  background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+        a{
+            color: white;
+        }
+    
+    }
+
+    .new{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        
+        .col-lg-6{
+            padding: 5rem 2rem;
+ 
+        }
+        .left{
+            position: relative;
+            background-color: $main;
+            text-align: left;
+            color: $primary;
+            h2{
+                padding: 0 4rem;
+                font-size: 2.725rem;
+            }
+            p{
+                padding: 2rem 4rem;
+                font-size: 1.125rem;
+            }
+
+            button{
+                position: relative;
+                padding: 0.5rem;
+                border: 0;
+                /* font-weight: 500; */
+                color: $primary;
+                letter-spacing: 5px;
+                font-weight: 600;
+              
+                font-size: 1.125rem;
+                // border-radius: 8px;
+                background: $main;
+                // border-bottom: 1px solid white;
+                transition: all 1s ease;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    bottom: 0;
+                    left: 0;
+                    height: 3px;
+                    width: 20%;
+                    background-color: #000000;
+                    background-image: linear-gradient(315deg, #000000 0%, #a29bfe 74%);
+                    
+                    transition: all .5s ease;
+
+                }
+                &:hover::after{
+                    width: 100%;
+                }
+                
+            }
+            #visual{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+           
+            
+        }
+        .blend{
+            background-color: #1a1720;
+            position: relative;
+            overflow: hidden;
+
+   
+            #m-mask{
+                background-image: url(./images/laptopfirst.avif);
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-position: 50% 50%;
+                background-size: 70%;
+                
+            }
+
+            .mask{
+                -webkit-mask-image: url(./images/coolmask.svg);
+                -webkit-mask-position: center;
+                -webkit-mask-repeat: no-repeat;
+                -webkit-mask-size: contain;
+                mask-image: url(/images/coolmask.svg);
+                mask-position: calc(100% - 200px) center;
+                mask-repeat: no-repeat;
+                mask-size: contain;
+                mask-size: 60%;
+            }
+            
+        }
+
+        // #visual{
+        //     aspect-ratio: 900/300;
+        //     max-width: 100%;
+
+        // }
+    }
+
+}
+
+#lol{
+    position: relative;
+    // padding-bottom: 50rem;
+    background-color: #f1f2f6;
+        .container{
+        .pos{
+            
+            position: relative;
+            top: -3rem;
+            left: 30vw;
+            color: rgb(62, 51, 119);
+            display: inline-block;
+                
+            //    &::after{
+            //        position: absolute;
+            //        content: '';
+            //        bottom: 0;
+            //        left: 0;
+            //        height: 3px;
+            //        width: 10%;
+                
+            //     background-color: #000000;
+            //     background-image: linear-gradient(315deg, #000000 0%, #a29bfe 74%);
+            //    }
+        }
+        }
+        .curves{
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .card-comp{
+            a{
+                color:$text;
+            }
+        
+            .main-div{
+        
+                .img-container{
+                    position: relative;
+                    transform: scale(1);
+                    transition: all .5s ease;
+        
+                    img{
+                        max-width: 100%;
+                    }
+        
+                }
+                .img-ovrlap{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+        
+                    .banner-text{
+                        position: absolute;
+                        left: 25px;
+                        top: 40px;
+        
+                        .banner-title{
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 10px;
+                            letter-spacing: 5px;
+                            margin-bottom: 15px;
+        
+                        
+                        }
+                        .banner-sub-title{
+                            display: inline-block;
+                            font-size: 1.725rem;
+                            font-weight: 700;
+                            line-height: 30px;
+                            margin-bottom: 10px;
+                            transform-origin: center;
+                            transition: all .5s ease;
+                        }
+                        .banner-desc{
+                            margin-bottom: 20px;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 18px;
+                            display: inline-block;
+                        }
+                        .banner-button{
+                                button{
+                                    color: $text;
+                                    background-color: #f8f8f800;
+                                    border: 0;
+                                    border-bottom: 2px solid white;
+                                }
+                        }
+                    }
+                }
+            }
+
+            &:hover{
+                .img-container{
+                    transform: scale(1.1);
+                    z-index: 9999;
+                }
+                .banner-sub-title{
+                    transform: rotateZ(360deg)
+                }
+            }
+        }
+
+        .title-product{
+            text-align: center;
+            color: $text;
+            
+            h1{
+                display: inline-block;
+                position: relative;
+                padding: 1.725rem;
+                z-index: 1;
+
+                &::before{
+                    position: absolute;
+                    content: '';
+                    top: 25% ;
+                    left: 40%;
+                    z-index: -1;
+                    height: 50px;
+                    width: 50px;
+                    background-color: $button;
+                    border-radius: 80% 30% 40% 80%/65% 50% 35% 60%;
+                
+                }
+            }
+        }
+        .products{
+           .lists{
+               font-size: 1.325rem;
+                list-style: none;   
+               
+                width: 50%;
+                margin: auto;
+                justify-content: space-evenly;
+
+               a{
+                  padding: .525rem;
+                   text-decoration: none;
+                   color: $text;
+
+                   &:focus{
+                    background-color: $button;
+                    border-radius: 8px;
+                   }
+               }
+           }
+
+           .main-products{
+       
+                .card-wrapper{
+                    // background-color: rgb(43, 102, 64);
+                    // padding-bottom: 100%;
+
+                    .card-img-holder{
+                        position: relative;
+                        background-image:  url(./images/smart-watch.webp);
+                        background-position: center center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        min-height: 240px;
+                        max-width: 70%;
+                        margin: auto;
+
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-image: url(./images/earbud.webp);
+                            background-position: center center;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            opacity: 0;
+                            transition: all .5s ease;
+
+                            
+
+                        }
+
+                        
+                        // img{
+                        //     max-width: 100%;
+                        // }
+                        .span-wrapper{
+                            position: absolute;
+                            display: flex;
+                            flex-direction: column;
+                            top: 0;
+                            right: 0;
+                        }
+                    }
+                    .card-content-wrapper{
+                        padding-top: 1rem;
+                        text-align: center;
+
+                        .card-contents{
+                            // padding: 0 6rem;
+                            h2{
+                                font-size: 1.125rem;
+                                font-weight: 500;
+                            }
+                            p{
+                                font-size: 1rem;
+                            }
+                            a.cart{
+                                text-align: center;
+                                background-color: $button;
+                                padding: .525rem;
+                                font-size: 1rem;
+                                font-weight: 500;
+                                transition: background-color .5s ease;
+
+                                &:hover{
+                                    background-color: $main;
+                                    color: $primary;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover{
+                        .card-img-holder::before{
+                           
+                            opacity: 1;
+                            // background-image: url(./images/earbud.webp);
+                        
+                        }
+                    }
+                }
+           }
+        }
+    }
+
+// #latest-products{
+//     padding: 2rem 0;
+//     background-color: $main;
+// }
+
+
+   
+
