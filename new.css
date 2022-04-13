@@ -107,7 +107,7 @@ a:hover {
   bottom: 0;
   left: 0;
   background-position: 50% 50%;
-  background-size: 70%;
+  background-size: 100%;
 }
 
 #main .new .blend .mask {
@@ -117,12 +117,11 @@ a:hover {
   -webkit-mask-size: contain;
   -webkit-mask-image: url(/images/coolmask.svg);
           mask-image: url(/images/coolmask.svg);
-  -webkit-mask-position: calc(100% - 200px) center;
-          mask-position: calc(100% - 200px) center;
+  mask-position: center;
   mask-repeat: no-repeat;
   mask-size: contain;
-  -webkit-mask-size: 60%;
-          mask-size: 60%;
+  -webkit-mask-size: 80%;
+          mask-size: 80%;
 }
 
 #lol {
@@ -263,31 +262,26 @@ a:hover {
   border-radius: 8px;
 }
 
+#lol .products .main-products .card-wrapper {
+  padding-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 21px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  -webkit-box-shadow: 35px 35px 52px #bebebe, -35px -35px 52px #ffffff;
+          box-shadow: 35px 35px 52px #bebebe, -35px -35px 52px #ffffff;
+}
+
 #lol .products .main-products .card-wrapper .card-img-holder {
   position: relative;
-  background-image: url(./images/smart-watch.webp);
+  background-image: url(./images/smart-watch1.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 240px;
   max-width: 70%;
   margin: auto;
-}
-
-#lol .products .main-products .card-wrapper .card-img-holder::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-image: url(./images/earbud.webp);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 #lol .products .main-products .card-wrapper .card-img-holder .span-wrapper {
@@ -300,7 +294,189 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   top: 0;
-  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder .icon1 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 5%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder .icon2 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 25%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder1 {
+  position: relative;
+  background-image: url(./images/laptop.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 240px;
+  max-width: 70%;
+  margin: auto;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder1 .span-wrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder1 .icon1 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 5%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder1 .icon2 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 25%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder2 {
+  position: relative;
+  background-image: url(./images/smartphone.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 240px;
+  max-width: 70%;
+  margin: auto;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder2 .span-wrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder2 .icon1 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 5%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder2 .icon2 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 25%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder3 {
+  position: relative;
+  background-image: url(./images/speaker.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 240px;
+  max-width: 70%;
+  margin: auto;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder3 .span-wrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder3 .icon1 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 5%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+#lol .products .main-products .card-wrapper .card-img-holder3 .icon2 {
+  font-size: 1.525rem;
+  cursor: pointer;
+  color: #1a1720;
+  position: absolute;
+  top: 25%;
+  right: -35%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
 }
 
 #lol .products .main-products .card-wrapper .card-content-wrapper {
@@ -309,30 +485,248 @@ a:hover {
 }
 
 #lol .products .main-products .card-wrapper .card-content-wrapper .card-contents h2 {
+  color: #3e3377;
   font-size: 1.125rem;
   font-weight: 500;
 }
 
 #lol .products .main-products .card-wrapper .card-content-wrapper .card-contents p {
+  color: #3e3377;
   font-size: 1rem;
 }
 
 #lol .products .main-products .card-wrapper .card-content-wrapper .card-contents a.cart {
+  color: #3e3377;
   text-align: center;
   background-color: #2ed573;
-  padding: .525rem;
+  padding: .725rem;
   font-size: 1rem;
   font-weight: 500;
   -webkit-transition: background-color .5s ease;
   transition: background-color .5s ease;
 }
 
-#lol .products .main-products .card-wrapper .card-content-wrapper .card-contents a.cart:hover {
+#lol .products .main-products .card-wrapper .card-content-wrapper .card-contents:hover a.cart {
+  color: #a29bfe;
   background-color: #1a1720;
+}
+
+#lol .products .main-products .card-wrapper:hover .card-img-holder {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/watch.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#lol .products .main-products .card-wrapper:hover .card-img-holder1 {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/laptop1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#lol .products .main-products .card-wrapper:hover .card-img-holder2 {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/smartphone1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#lol .products .main-products .card-wrapper:hover .card-img-holder3 {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/earbud1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#lol .products .main-products .card-wrapper:hover .icon1 {
+  right: -10%;
+}
+
+#lol .products .main-products .card-wrapper:hover .icon2 {
+  right: -10%;
+}
+
+#lol .products .main-products .link {
+  color: #3e3377;
+  text-align: center;
+  border: 0;
+  background-color: #2ed573;
+  padding: .725rem;
+  font-size: 1rem;
+  font-weight: 500;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#lol .products .main-products .link:hover {
+  background-color: #1a1720;
+}
+
+#lol .products .main-products .link:hover a {
   color: #a29bfe;
 }
 
-#lol .products .main-products .card-wrapper:hover .card-img-holder::before {
-  opacity: 1;
+#middle-curve {
+  position: relative;
+  height: 200px;
+}
+
+#middle-curve .middle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  aspect-ratio: 1920/300;
+  height: 100%;
+  width: 100%;
+}
+
+#owl .title-product {
+  text-align: center;
+}
+
+#owl .title-product h1 {
+  display: inline-block;
+  color: #3e3377;
+  position: relative;
+  padding: 1.725rem;
+  z-index: 1;
+}
+
+#owl .title-product h1::before {
+  position: absolute;
+  content: '';
+  top: 25%;
+  left: 40%;
+  z-index: -1;
+  height: 50px;
+  width: 50px;
+  background-color: #2ed573;
+  border-radius: 80% 30% 40% 80%/65% 50% 35% 60%;
+}
+
+#owl .container .item .image-cont img {
+  max-width: 100%;
+}
+
+#owl .container .item .contents {
+  font-size: 1.125rem;
+  font-weight: 450;
+  color: #3e3377;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#owl .container .item:hover .contents {
+  letter-spacing: 2px;
+  color: #2ed573;
+}
+
+#owl .container .owl-nav {
+  color: #2ed573;
+  font-size: 3rem;
+}
+
+#owl .container .owl-nav button.owl-prev {
+  padding: 0 1rem !important;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#owl .container .owl-nav button.owl-prev:hover {
+  background-color: #1a1720;
+}
+
+#owl .container .owl-nav button.owl-next {
+  padding: 0 1rem !important;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#owl .container .owl-nav button.owl-next:hover {
+  background-color: #1a1720;
+}
+
+#parralax {
+  background-image: url(/images/parralax-bg.webp);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 7rem 0;
+  height: 100%;
+  width: 100%;
+}
+
+#parralax .content-wrap {
+  width: 80%;
+  margin: auto;
+  color: #a29bfe;
+  text-align: center;
+}
+
+#parralax .content-wrap h1 {
+  font-size: 3.125rem;
+  font-weight: 500;
+}
+
+#parralax .content-wrap p {
+  font-size: 1.225rem;
+}
+
+#parralax .content-wrap button {
+  background-color: #2ed573;
+  color: #3e3377;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: .5rem 4rem;
+  border: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#parralax .content-wrap button a {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#parralax .content-wrap button:hover {
+  background-color: #1a1720;
+}
+
+#parralax .content-wrap button:hover a {
+  color: #a29bfe;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=new.css.map */

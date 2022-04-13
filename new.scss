@@ -119,7 +119,7 @@ a{
                 bottom: 0;
                 left: 0;
                 background-position: 50% 50%;
-                background-size: 70%;
+                background-size: 100%;
                 
             }
 
@@ -129,10 +129,10 @@ a{
                 -webkit-mask-repeat: no-repeat;
                 -webkit-mask-size: contain;
                 mask-image: url(/images/coolmask.svg);
-                mask-position: calc(100% - 200px) center;
+                mask-position: center;
                 mask-repeat: no-repeat;
                 mask-size: contain;
-                mask-size: 60%;
+                mask-size: 80%;
             }
             
         }
@@ -300,91 +300,470 @@ a{
            .main-products{
        
                 .card-wrapper{
-                    // background-color: rgb(43, 102, 64);
-                    // padding-bottom: 100%;
-
+                    padding-bottom: 2rem;
+                    overflow: hidden;
+                    border-radius: 21px;
+                    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+                    box-shadow:  35px 35px 52px #bebebe,
+                                -35px -35px 52px #ffffff;
                     .card-img-holder{
                         position: relative;
-                        background-image:  url(./images/smart-watch.webp);
+                        background-image:  url(./images/smart-watch1.png);
+                        // filter: saturate(8);
                         background-position: center center;
                         background-size: cover;
                         background-repeat: no-repeat;
                         min-height: 240px;
                         max-width: 70%;
                         margin: auto;
+                        transition: all .5s ease-in-out;
 
-                        &::before{
-                            content: '';
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            height: 100%;
-                            width: 100%;
-                            background-image: url(./images/earbud.webp);
-                            background-position: center center;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            opacity: 0;
-                            transition: all .5s ease;
-
-                            
-
-                        }
-
-                        
-                        // img{
-                        //     max-width: 100%;
-                        // }
                         .span-wrapper{
                             position: absolute;
                             display: flex;
                             flex-direction: column;
                             top: 0;
-                            right: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            //  background-color: #636e72;
+                            
+                            
+
+                        }
+                        .icon1{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 5%;
+                            right: -35%;
+                            transition: all .3s ease-in;
+                        }
+                        .icon2{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 25%;
+                            right: -35%;
+                            
+                            transition: all .3s ease-in;
+                            transition-delay: .2s;
+                        }
+                    
+                    }
+                    .card-img-holder1{
+                        position: relative;
+                        background-image:  url(./images/laptop.png);
+                        // filter: saturate(8);
+                        background-position: center center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        min-height: 240px;
+                        max-width: 70%;
+                        margin: auto;
+                        transition: all .5s ease-in-out;
+
+                        .span-wrapper{
+                            position: absolute;
+                            display: flex;
+                            flex-direction: column;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            //  background-color: #636e72;
+                            
+                            
+
+                        }
+                        .icon1{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 5%;
+                            right: -35%;
+                            transition: all .3s ease-in;
+                        }
+                        .icon2{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 25%;
+                            right: -35%;
+                            
+                            transition: all .3s ease-in;
+                            transition-delay: .2s;
+                        }
+                    }
+                    .card-img-holder2{
+                        position: relative;
+                        background-image:  url(./images/smartphone.png);
+                        // filter: saturate(8);
+                        background-position: center center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        min-height: 240px;
+                        max-width: 70%;
+                        margin: auto;
+                        transition: all .5s ease-in-out;
+
+                        .span-wrapper{
+                            position: absolute;
+                            display: flex;
+                            flex-direction: column;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            //  background-color: #636e72;
+                            
+                            
+
+                        }
+                        .icon1{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 5%;
+                            right: -35%;
+                            transition: all .3s ease-in;
+                        }
+                        .icon2{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 25%;
+                            right: -35%;
+                            
+                            transition: all .3s ease-in;
+                            transition-delay: .2s;
+                        }
+                    }
+                    .card-img-holder3{
+                        position: relative;
+                        background-image:  url(./images/speaker.png);
+                        // filter: saturate(8);
+                        background-position: center center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        min-height: 240px;
+                        max-width: 70%;
+                        margin: auto;
+                        transition: all .5s ease-in-out;
+
+                        .span-wrapper{
+                            position: absolute;
+                            display: flex;
+                            flex-direction: column;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            //  background-color: #636e72;
+                            
+                            
+
+                        }
+                        .icon1{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 5%;
+                            right: -35%;
+                            transition: all .3s ease-in;
+                        }
+                        .icon2{
+                            font-size: 1.525rem;
+                            cursor: pointer;
+                            color: $main;
+                            position: absolute;
+                            top: 25%;
+                            right: -35%;
+                            
+                            transition: all .3s ease-in;
+                            transition-delay: .2s;
                         }
                     }
                     .card-content-wrapper{
                         padding-top: 1rem;
                         text-align: center;
+                    
 
                         .card-contents{
                             // padding: 0 6rem;
                             h2{
+                                color: $text;
                                 font-size: 1.125rem;
                                 font-weight: 500;
                             }
                             p{
+                                color: $text;
                                 font-size: 1rem;
                             }
                             a.cart{
+                                color: $text;
                                 text-align: center;
                                 background-color: $button;
-                                padding: .525rem;
+                                padding: .725rem;
                                 font-size: 1rem;
                                 font-weight: 500;
                                 transition: background-color .5s ease;
 
-                                &:hover{
-                                    background-color: $main;
+                            }
+
+                            &:hover{
+                                a.cart{
                                     color: $primary;
+                                    background-color: $main;
                                 }
+                                
                             }
                         }
                     }
 
                     &:hover{
-                        .card-img-holder::before{
-                           
+                        .card-img-holder{
+                            opacity: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-image: url(./images/watch.png);
+                             
+                            background-position: center center;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+
                             opacity: 1;
-                            // background-image: url(./images/earbud.webp);
+                            // transform: scale(1.5);
+                            transition: all .3s ease;
+                            transition-delay: .2s;
+
+                        }
+                        .card-img-holder1{
+                            opacity: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-image: url(./images/laptop1.png);
+                             
+                            background-position: center center;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+
+                            opacity: 1;
+                            // transform: scale(1.5);
+                            transition: all .3s ease;
+                            transition-delay: .2s;
+                        }
+                        .card-img-holder2{
+                            opacity: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-image: url(./images/smartphone1.png);
+                             
+                            background-position: center center;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+
+                            opacity: 1;
+                            // transform: scale(1.5);
+                            transition: all .3s ease;
+                            transition-delay: .2s;
+                        }
+                        .card-img-holder3{
+                            opacity: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-image: url(./images/earbud1.png);
+                             
+                            background-position: center center;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+
+                            opacity: 1;
+                            // transform: scale(1.5);
+                            transition: all .3s ease;
+                            transition-delay: .2s;
+                        }
+
+                        .icon1{
                         
+                            right: -10%;
+                        }
+                        .icon2{
+                            
+                            right: -10%;
+                        }
+
+                    }
+                }
+
+                .link{
+                    color: $text;
+                    text-align: center;
+                    border: 0;
+                    background-color: $button;
+                    padding: .725rem;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    transition: .3s ease-in-out;
+
+                    &:hover{    
+                        background-color: $main;
+                        
+                        a{
+                            color: $primary;
                         }
                     }
                 }
            }
         }
     }
+#middle-curve{
+    position: relative;
+    height: 200px;
+    .middle{
+        position: absolute;
+        top: 0;
+        left: 0;
+        aspect-ratio: 1920/300;
+        height: 100%;
+        width: 100%;
+    }
+   
+}
 
+#owl{
+    .title-product{
+        text-align: center;
+        
+        
+        h1{
+            display: inline-block;
+            color: $text;
+            position: relative;
+            padding: 1.725rem;
+            z-index: 1;
+
+            &::before{
+                position: absolute;
+                content: '';
+                top: 25% ;
+                left: 40%;
+                z-index: -1;
+                height: 50px;
+                width: 50px;
+                background-color: $button;
+                border-radius: 80% 30% 40% 80%/65% 50% 35% 60%;
+            
+            }
+        }
+    }
+
+    .container{
+        
+        .item{
+            .image-cont{
+           
+                img{
+                    max-width: 100%;
+                }
+            }
+            .contents{
+                font-size: 1.125rem;
+                font-weight: 450;
+                color: $text;
+                transition: all .2s ease-in-out;
+            }
+
+            &:hover{
+                .contents{
+                    letter-spacing: 2px;
+                    color: $button;
+                } 
+             }
+        }
+        
+        .owl-nav{
+            color: $button;
+            font-size: 3rem;
+        
+
+            button.owl-prev{
+                // padding: 6px 17px !important;
+                padding:0 1rem !important;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    background-color: $main;
+                }
+            }
+            button.owl-next{
+                // padding: 6px 5rem !important;
+                padding:0 1rem !important;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    
+                    background-color: $main;
+                }
+            }
+        }
+    }
+    
+}
+
+#parralax{
+    background-image: url(/images/parralax-bg.webp);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 7rem 0; 
+    height: 100%;
+    width: 100%;
+
+
+    .content-wrap{
+        width: 80%;
+        margin: auto;
+        color: $primary;
+        text-align: center;
+
+        h1{
+
+            font-size: 3.125rem ;
+            font-weight: 500;
+        }
+        p{
+            font-size: 1.225rem;
+        }  
+
+        button{
+            background-color: $button;
+            color: $text;
+            font-weight: 500;
+            border-radius: 5px;
+            padding: .5rem 4rem;
+            border: 0;
+            transition: all .3s ease-in-out;
+            
+            a{
+                transition: all .3s ease-in-out;
+            }
+            &:hover{
+                background-color: $main;
+                a{
+                    color: $primary;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+
+    }
+}
 // #latest-products{
 //     padding: 2rem 0;
 //     background-color: $main;
