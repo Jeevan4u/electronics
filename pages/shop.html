@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+    <!-- <link rel="stylesheet" href="swiper.css"> -->
+    <link rel="stylesheet" href="swiper-pagination.css">
+    <link rel="stylesheet" href="/new.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+      <div id="main" class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">
+                <svg
+                  width="162px"
+                  height="44px"
+                  viewBox="0 0 162 64"
+                  preserveAspectRatio="xMinYMid meet"
+                  alt="Deity logo"
+                  aria-label="Deity logo"
+                  style="height: inherit"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      d="M31.713 0l7.502 4.332v12.437l-7.442-4.228-16.909 9.774v19.547l16.904 9.774 16.915-9.774-.001-32.064L59.426 16v32L31.713 64 4 48V16L31.713 0zm.18 23.636l7.335 4.212v8.425l-7.33 4.212-7.337-4.212v-8.425l7.331-4.212z"
+                      fill="#A0CC3F"
+                    ></path>
+                    <path
+                      d="M78.883 22c6.61-.03 10.595 4.206 10.595 9.97 0 5.824-4.338 10.03-10.595 10.03H70V22.03l8.883-.03zm-4.043 4.47v11.06h4.043c3.364 0 5.696-2.206 5.696-5.56 0-3.587-2.273-5.5-5.696-5.5H74.84zM92.196 22h15.375v4.47H97.036v3.442h8.794v4.176h-8.794v3.441h10.535V42H92.196V22zm23.76 0v20h-4.84V22h4.84zm22.048 0v4.47h-7.112V42h-4.9V26.47h-7.112V22h19.124zM162 22l-8.617 12.441V42h-4.87v-7.559l-8.558-12.44h5.577l5.46 8.176L156.363 22H162z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </div>
+      <section id="lol">
+        <svg
+          class="curves"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 300"
+        >
+          <path
+            fill="#1a1720"
+            fill-opacity="1"
+            d="M0,96L24,133.3C48,171,96,245,144,245.3C192,245,240,171,288,128C336,85,384,75,432,58.7C480,43,528,21,576,26.7C624,32,672,64,720,96C768,128,816,160,864,149.3C912,139,960,85,1008,90.7C1056,96,1104,160,1152,165.3C1200,171,1248,117,1296,128C1344,139,1392,213,1416,250.7L1440,288L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+          ></path>
+        </svg>
+        <div class="container py-5">
+          <div class="title-product">
+            <h1>Latest Product</h1>
+          </div>
+          <div class="container products">
+            <ul class="d-flex lists pb-5">
+              <li class="items-p "><a href="#main-products" class="active1"> Featured</a></li>
+              <li class="items-p"><a href="#main-products">Best Seller</a></li>
+              <li class="items-p"><a href="#main-products">New arrivals</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid" id="aside">
+        <div class="row">
+          <div class="col-lg-3">
+              <div class="row main">
+                <div class="col-lg-12 ">
+                    <div class="left-product-wrapper">
+                      <div class="header d-flex justify-content-lg-evenly h4 " style="color: #a29bfe;">
+                        <div class="logo-cont">
+                          <svg
+                  width="162px"
+                  height="44px"
+                  viewBox="0 0 162 64"
+                  preserveAspectRatio="xMinYMid meet"
+                  alt="Deity logo"
+                  aria-label="Deity logo"
+                  style="height: inherit"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      d="M31.713 0l7.502 4.332v12.437l-7.442-4.228-16.909 9.774v19.547l16.904 9.774 16.915-9.774-.001-32.064L59.426 16v32L31.713 64 4 48V16L31.713 0zm.18 23.636l7.335 4.212v8.425l-7.33 4.212-7.337-4.212v-8.425l7.331-4.212z"
+                      fill="#A0CC3F"
+                    ></path>
+                    <path
+                      d="M78.883 22c6.61-.03 10.595 4.206 10.595 9.97 0 5.824-4.338 10.03-10.595 10.03H70V22.03l8.883-.03zm-4.043 4.47v11.06h4.043c3.364 0 5.696-2.206 5.696-5.56 0-3.587-2.273-5.5-5.696-5.5H74.84zM92.196 22h15.375v4.47H97.036v3.442h8.794v4.176h-8.794v3.441h10.535V42H92.196V22zm23.76 0v20h-4.84V22h4.84zm22.048 0v4.47h-7.112V42h-4.9V26.47h-7.112V22h19.124zM162 22l-8.617 12.441V42h-4.87v-7.559l-8.558-12.44h5.577l5.46 8.176L156.363 22H162z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                         </svg>
+                        </div>
+                        <div class="text-cont">Popular Products</div>
+                      </div>
+                      <div class="row whole">
+                        <div class="col-lg-3 img-side">
+                          <div class="img-wrapper">
+                            <img src="/images/cubes.jpg" style="max-width: 100%;" alt="">
+                          </div>
+                        </div>
+                        <div class="col-lg-9 content-side d-flex justify-content-lg-evenly flex-column align-content-lg-center">
+                          <p> <a href="#">Cube</a> </p>
+                          <!-- <P>* * * *</P> -->
+                           <div class="price d-flex justify-content-lg-around w-100">
+                            <span class="cross">$393.00 </span>
+                            <span >$193.00</span>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="row whole">
+                        <div class="col-lg-3 img-side">
+                          <div class="img-wrapper">
+                            <img src="/images/camera.jpg" style="max-width: 100%;" alt="">
+                          </div>
+                        </div>
+                        <div class="col-lg-9 content-side d-flex justify-content-lg-evenly flex-column align-content-lg-center">
+                          <p> <a href="#">Camera</a> </p>
+                          <!-- <P>* * * *</P> -->
+                           <div class="price d-flex justify-content-lg-around w-100">
+                            <span class="cross">$393.00 </span>
+                            <span >$193.00</span>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="row whole">
+                        <div class="col-lg-3 img-side">
+                          <div class="img-wrapper">
+                            <img src="/images/cubes.jpg" style="max-width: 100%;" alt="">
+                          </div>
+                        </div>
+                        <div class="col-lg-9 content-side d-flex justify-content-lg-evenly flex-column align-content-lg-center">
+                          <p>Meat</p>
+                          <!-- <P>* * * *</P> -->
+                           <div class="price d-flex justify-content-lg-around w-100">
+                            <span class="cross">$393.00 </span>
+                            <span >$193.00</span>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+             <div class="swiper-slide">
+               
+               <div id="main-products" class="main-products">
+                 <div class="row">
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   
+                   
+                 </div>
+                 <div class="center-button py-5 text-center">
+                   <button class="link">
+                     <a href="#main-product">Shop More</a>
+                   </button>
+                 </div>
+               </div>
+               
+               
+            
+             </div>
+             <div class="swiper-slide">
+               
+               <div id="main-products" class="main-products">
+                 <div class="row">
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   
+                   
+                 </div>
+                 <div class="center-button py-5 text-center">
+                   <button class="link">
+                     <a href="#main-product">Shop More</a>
+                   </button>
+                 </div>
+               </div>
+               
+               
+            
+             </div>
+             <div class="swiper-slide">
+               
+               <div id="main-products" class="main-products">
+                 <div class="row">
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   
+                   
+                 </div>
+                 <div class="center-button py-5 text-center">
+                   <button class="link">
+                     <a href="#main-product">Shop More</a>
+                   </button>
+                 </div>
+               </div>
+               
+               
+            
+             </div>
+             <div class="swiper-slide">
+               
+               <div id="main-products" class="main-products">
+                 <div class="row">
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder">
+                         <span class="icon1"
+                           ><a href="#"><i class="fa-regular fa-heart"></i></a
+                         ></span>
+                         <span class="icon2"
+                           ><a href="#"><i class="fa-solid fa-eye"></i></a
+                         ></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder1">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder2">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-3 my-3">
+                     <div class="card-wrapper">
+                       <div class="card-img-holder3">
+                         <span class="icon1"
+                           ><i class="fa-regular fa-heart"></i
+                         ></span>
+                         <span class="icon2"><i class="fa-solid fa-eye"></i></span>
+            
+                         <!-- <img src="./images/smart-watch.webp" alt=""> -->
+                         <div class="span-wrapper"></div>
+                       </div>
+                       <div class="card-content-wrapper">
+                         <div class="card-contents">
+                           <h2>Lorem ipsum dolor.</h2>
+                           <p>$222</p>
+                           <a href="" class="cart">+ ADD TO CART</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   
+                   
+                 </div>
+                 <div class="center-button py-5 text-center">
+                   <button class="link">
+                     <a href="#main-product">Shop More</a>
+                   </button>
+                 </div>
+               </div>
+               
+               
+            
+             </div>
+             
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+      </div>
+     
+      <section id="footer">
+        <div class="news-setteler">
+          <div class="title-product">
+            <h1>Partners</h1>
+          </div>
+          <p>
+            Sitting mistake towards his few country ask. You delighted two six
+            depending objection happiness.
+          </p>
+          <div class="input-field">
+            <input type="email" name="" id="" placeholder="Enter your Email" />
+            <button><a href="#">Suscribe Us</a></button>
+          </div>
+        </div>
+        <div class="main-footer">
+          <div class="row">
+            <div class="col-lg-3 footer-left">
+              <ul class="first">
+                <li class="footer1"><a href="">Contact information</a></li>
+                <li class="footer1"><a href="">Location :Nepal,Ktm</a></li>
+                <li class="footer1"><a href="">Contact Us : +91 123456789</a></li>
+                <li class="footer1"><a href="">Email : info@gmail.com</a></li>
+                <ul class="second">
+                  <li class="icons">
+                    <a href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 48 48"
+                        width="48px"
+                        height="48px"
+                      >
+                        <linearGradient
+                          id="Ld6sqrtcxMyckEl6xeDdMa"
+                          x1="9.993"
+                          x2="40.615"
+                          y1="9.993"
+                          y2="40.615"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop offset="0" stop-color="#2aa4f4" />
+                          <stop offset="1" stop-color="#007ad9" />
+                        </linearGradient>
+                        <path
+                          fill="url(#Ld6sqrtcxMyckEl6xeDdMa)"
+                          d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"
+                        />
+                        <path
+                          fill="#fff"
+                          d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icons">
+                    <a href="#"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 48 48"
+                        width="48px"
+                        height="48px"
+                      >
+                        <radialGradient
+                          id="yOrnnhliCrdS2gy~4tD8ma"
+                          cx="19.38"
+                          cy="42.035"
+                          r="44.899"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop offset="0" stop-color="#fd5" />
+                          <stop offset=".328" stop-color="#ff543f" />
+                          <stop offset=".348" stop-color="#fc5245" />
+                          <stop offset=".504" stop-color="#e64771" />
+                          <stop offset=".643" stop-color="#d53e91" />
+                          <stop offset=".761" stop-color="#cc39a4" />
+                          <stop offset=".841" stop-color="#c837ab" />
+                        </radialGradient>
+                        <path
+                          fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
+                          d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                        />
+                        <radialGradient
+                          id="yOrnnhliCrdS2gy~4tD8mb"
+                          cx="11.786"
+                          cy="5.54"
+                          r="29.813"
+                          gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop offset="0" stop-color="#4168c9" />
+                          <stop
+                            offset=".999"
+                            stop-color="#4168c9"
+                            stop-opacity="0"
+                          />
+                        </radialGradient>
+                        <path
+                          fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
+                          d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                        />
+                        <path
+                          fill="#fff"
+                          d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
+                        />
+                        <circle cx="31.5" cy="16.5" r="1.5" fill="#fff" />
+                        <path
+                          fill="#fff"
+                          d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"
+                        /></svg
+                    ></a>
+                  </li>
+                  <li class="icons">
+                    <a href="#"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 48 48"
+                        width="48px"
+                        height="48px"
+                      >
+                        <path
+                          fill="#03A9F4"
+                          d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"
+                        /></svg
+                    ></a>
+                  </li>
+                  <li class="icons">
+                    <a href="">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 48 48"
+                        width="48px"
+                        height="48px"
+                      >
+                        <linearGradient
+                          id="tS~Tu1dsT5kMXF2Lct~HUa"
+                          x1="24.001"
+                          x2="24.001"
+                          y1="-4.765"
+                          y2="56.31"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop offset="0" stop-color="#4caf50" />
+                          <stop offset=".489" stop-color="#4aaf50" />
+                          <stop offset=".665" stop-color="#43ad50" />
+                          <stop offset=".79" stop-color="#38aa50" />
+                          <stop offset=".892" stop-color="#27a550" />
+                          <stop offset=".978" stop-color="#11a050" />
+                          <stop offset="1" stop-color="#0a9e50" />
+                        </linearGradient>
+                        <path
+                          fill="url(#tS~Tu1dsT5kMXF2Lct~HUa)"
+                          d="M24.001,4c-11.077,0-20,8.923-20,20s8.923,20,20,20c11.076,0,20-8.923,20-20	S35.077,4,24.001,4z"
+                        />
+                        <path
+                          d="M21.224,15.938c5.554,0,11.4,1.17,15.785,3.654c0.584,0.293,1.022,0.877,1.022,1.754 c-0.145,1.023-0.877,1.755-1.899,1.755c-0.438,0-0.585-0.146-1.023-0.291c-3.508-2.047-8.769-3.217-13.885-3.217 c-2.631,0-5.262,0.293-7.6,0.877c-0.293,0-0.585,0.146-1.023,0.146c-0.075,0.011-0.149,0.016-0.221,0.016 c-0.905,0-1.533-0.821-1.533-1.77c0-1.023,0.585-1.607,1.315-1.754C14.939,16.231,17.862,15.938,21.224,15.938 M20.785,22.369 c4.97,0,9.793,1.17,13.593,3.507c0.584,0.291,0.877,0.877,0.877,1.461c0,0.878-0.585,1.608-1.462,1.608 c-0.438,0-0.73-0.144-1.023-0.291c-3.068-1.9-7.308-3.071-12.13-3.071c-2.339,0-4.531,0.293-6.139,0.733 c-0.439,0.144-0.585,0.144-0.877,0.144c-0.877,0-1.462-0.73-1.462-1.461c0-0.877,0.439-1.316,1.169-1.607 C15.523,22.808,17.716,22.369,20.785,22.369 M21.223,28.654c4.093,0,7.893,1.021,11.108,2.924 c0.438,0.291,0.731,0.584,0.731,1.314c-0.146,0.586-0.731,1.023-1.315,1.023c-0.292,0-0.585-0.145-0.877-0.292 c-2.777-1.607-6.139-2.484-9.792-2.484c-2.047,0-4.093,0.291-5.993,0.73c-0.292,0-0.731,0.146-0.877,0.146 c-0.731,0-1.169-0.586-1.169-1.17c0-0.73,0.438-1.17,1.023-1.314C16.4,28.945,18.739,28.654,21.223,28.654 M21.224,14.938 c-3.789,0-6.666,0.371-9.317,1.202c-1.254,0.279-2.06,1.341-2.06,2.722c0,1.553,1.112,2.77,2.533,2.77 c0.095,0,0.192-0.005,0.291-0.017c0.319-0.007,0.574-0.065,0.764-0.107c0.068-0.015,0.13-0.035,0.193-0.038h0.123l0.116-0.03 c2.219-0.554,4.763-0.847,7.358-0.847c5.073,0,10.075,1.152,13.381,3.081l0.09,0.053l0.099,0.033 c0.109,0.036,0.195,0.073,0.273,0.105c0.251,0.105,0.563,0.236,1.065,0.236c1.483,0,2.671-1.075,2.889-2.615l0.01-0.07v-0.071 c0-1.171-0.564-2.13-1.549-2.635C33.238,16.313,27.314,14.938,21.224,14.938L21.224,14.938z M20.785,21.369 c-3.291,0-5.651,0.508-7.711,1.057l-0.058,0.015l-0.055,0.022c-1.194,0.476-1.799,1.329-1.799,2.536 c0,1.357,1.104,2.461,2.462,2.461c0.371,0,0.626-0.009,1.189-0.194c1.572-0.429,3.714-0.683,5.827-0.683 c4.441,0,8.562,1.037,11.603,2.921l0.038,0.024l0.04,0.02c0.334,0.168,0.792,0.397,1.471,0.397c1.404,0,2.462-1.121,2.462-2.608 c0-0.996-0.53-1.886-1.387-2.334C31.04,22.659,26.04,21.369,20.785,21.369L20.785,21.369z M21.223,27.654 c-2.547,0-4.969,0.297-7.404,0.907c-1.096,0.27-1.78,1.145-1.78,2.284c0,1.217,0.953,2.17,2.169,2.17 c0.172,0,0.334-0.037,0.522-0.079c0.101-0.023,0.288-0.065,0.357-0.067l0.101-0.003l0.122-0.023 c2.023-0.467,3.963-0.704,5.768-0.704c3.422,0,6.635,0.812,9.291,2.35l0.025,0.015l0.026,0.013 c0.334,0.168,0.792,0.399,1.327,0.399c1.05,0,2.032-0.766,2.285-1.781l0.03-0.119v-0.123c0-1.202-0.595-1.76-1.178-2.147 l-0.022-0.014l-0.022-0.013C29.455,28.713,25.437,27.654,21.223,27.654L21.223,27.654z"
+                          opacity=".05"
+                        />
+                        <path
+                          d="M21.224,15.938c5.554,0,11.4,1.17,15.785,3.654c0.584,0.293,1.022,0.877,1.022,1.754 c-0.145,1.023-0.877,1.755-1.899,1.755c-0.438,0-0.585-0.146-1.023-0.291c-3.508-2.047-8.769-3.217-13.885-3.217 c-2.631,0-5.262,0.293-7.6,0.877c-0.293,0-0.585,0.146-1.023,0.146c-0.075,0.011-0.149,0.016-0.221,0.016 c-0.905,0-1.533-0.821-1.533-1.77c0-1.023,0.585-1.607,1.315-1.754C14.939,16.231,17.862,15.938,21.224,15.938 M20.785,22.369 c4.97,0,9.793,1.17,13.593,3.507c0.584,0.291,0.877,0.877,0.877,1.461c0,0.878-0.585,1.608-1.462,1.608 c-0.438,0-0.73-0.144-1.023-0.291c-3.068-1.9-7.308-3.071-12.13-3.071c-2.339,0-4.531,0.293-6.139,0.733 c-0.439,0.144-0.585,0.144-0.877,0.144c-0.877,0-1.462-0.73-1.462-1.461c0-0.877,0.439-1.316,1.169-1.607 C15.523,22.808,17.716,22.369,20.785,22.369 M21.223,28.654c4.093,0,7.893,1.021,11.108,2.924 c0.438,0.291,0.731,0.584,0.731,1.314c-0.146,0.586-0.731,1.023-1.315,1.023c-0.292,0-0.585-0.145-0.877-0.292 c-2.777-1.607-6.139-2.484-9.792-2.484c-2.047,0-4.093,0.291-5.993,0.73c-0.292,0-0.731,0.146-0.877,0.146 c-0.731,0-1.169-0.586-1.169-1.17c0-0.73,0.438-1.17,1.023-1.314C16.4,28.945,18.739,28.654,21.223,28.654 M21.224,15.438 c-3.747,0-6.582,0.366-9.188,1.186c-1.042,0.222-1.689,1.078-1.689,2.238c0,1.273,0.893,2.27,2.033,2.27 c0.084,0,0.169-0.005,0.257-0.016c0.28-0.004,0.506-0.055,0.689-0.096c0.119-0.027,0.222-0.05,0.299-0.05h0.061l0.06-0.015 c2.258-0.564,4.844-0.862,7.479-0.862c5.158,0,10.254,1.177,13.633,3.149l0.045,0.026l0.05,0.016 c0.123,0.041,0.221,0.082,0.309,0.119c0.231,0.097,0.47,0.197,0.871,0.197c1.247,0,2.209-0.878,2.394-2.185l0.005-0.035v-0.035 c0-0.985-0.473-1.787-1.298-2.201C33.083,16.794,27.24,15.438,21.224,15.438L21.224,15.438z M20.785,21.869 c-3.054,0-5.24,0.416-7.583,1.04l-0.029,0.008l-0.028,0.011c-0.637,0.254-1.484,0.745-1.484,2.071c0,0.943,0.75,1.961,1.962,1.961 c0.34,0,0.541-0.008,1.033-0.169c1.637-0.447,3.827-0.708,5.983-0.708c4.533,0,8.747,1.064,11.867,2.996 c0.345,0.175,0.725,0.366,1.286,0.366c1.119,0,1.962-0.906,1.962-2.108c0-0.823-0.442-1.554-1.154-1.909 C30.885,23.141,25.965,21.869,20.785,21.869L20.785,21.869z M21.223,28.154c-2.506,0-4.888,0.292-7.283,0.892 c-0.864,0.213-1.401,0.902-1.401,1.799c0,0.821,0.624,1.67,1.669,1.67c0.116,0,0.246-0.029,0.411-0.067 c0.148-0.033,0.351-0.079,0.466-0.079h0.057l0.056-0.013c2.06-0.476,4.038-0.717,5.88-0.717c3.51,0,6.809,0.836,9.542,2.417 c0.331,0.168,0.712,0.359,1.127,0.359c0.827,0,1.601-0.603,1.8-1.402l0.015-0.06v-0.061c0-1.012-0.493-1.424-0.954-1.73 C29.277,29.189,25.348,28.154,21.223,28.154L21.223,28.154z"
+                          opacity=".07"
+                        />
+                        <path
+                          fill="#fff"
+                          d="M31.747,33.915c-0.292,0-0.585-0.145-0.877-0.292c-2.777-1.607-6.139-2.484-9.792-2.484 c-2.047,0-4.093,0.291-5.993,0.73c-0.292,0-0.731,0.146-0.877,0.146c-0.731,0-1.169-0.586-1.169-1.17 c0-0.73,0.438-1.17,1.023-1.314c2.338-0.586,4.677-0.877,7.161-0.877c4.093,0,7.893,1.021,11.108,2.924 c0.438,0.291,0.731,0.584,0.731,1.314C32.916,33.478,32.331,33.915,31.747,33.915z M33.793,28.945c-0.438,0-0.73-0.144-1.023-0.291 c-3.068-1.9-7.308-3.071-12.13-3.071c-2.339,0-4.531,0.293-6.139,0.733c-0.439,0.144-0.585,0.144-0.877,0.144 c-0.877,0-1.462-0.73-1.462-1.461c0-0.877,0.439-1.316,1.169-1.607c2.192-0.584,4.385-1.023,7.454-1.023 c4.97,0,9.793,1.17,13.593,3.507c0.584,0.291,0.877,0.877,0.877,1.461C35.255,28.215,34.67,28.945,33.793,28.945z M36.132,23.101 c-0.438,0-0.585-0.146-1.023-0.291c-3.508-2.047-8.769-3.217-13.885-3.217c-2.631,0-5.262,0.293-7.6,0.877 c-0.293,0-0.585,0.146-1.023,0.146c-1.023,0.146-1.754-0.73-1.754-1.754c0-1.023,0.585-1.607,1.315-1.754 c2.777-0.877,5.7-1.17,9.062-1.17c5.554,0,11.4,1.17,15.785,3.654c0.584,0.293,1.022,0.877,1.022,1.754 C37.886,22.369,37.154,23.101,36.132,23.101z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+            <div class="col-lg-3 footer-left">
+              <ul class="first">
+                <li class="footer1"><a href="#" >Your Account</a></li>
+                <li class="footer1"><a href="#" >Personal Info</a></li>
+                <li class="footer1"><a href="#">Orders</a></li>
+                <li class="footer1"><a href="#">Credit Slips</a></li>
+                <li class="footer1"><a href="#">Addresses</a></li>
+                <li class="footer1"><a href="#">My Wishlists</a></li>
+               
+              </ul>
+            </div>
+            <div class="col-lg-3 footer-left">
+              <ul class="first ">
+                <li class="footer1 "><a href=""  style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">Legal</a></li>
+                <li class="footer1"><a href="" style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">License</a></li>
+                <li class="footer1"><a href="" style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">Privacy Policy</a></li>
+                <li class="footer1"><a href="" style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">Terms of Use</a></li>
+               
+              </ul>
+            </div>
+            <div class="col-lg-3 footer-left">
+              <ul class="first ">
+                <li class="footer1 "><a href=""  style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">Our Company</a></li>
+                <li class="footer1"><a href="" style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">Legal Notice</a></li>
+                <li class="footer1"><a href="" style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">Contact Us</a></li>
+                <li class="footer1"><a href="" style="color:rgb(62, 51, 119);" onMouseOver="this.style.color='#2ed573'"
+          onMouseOut="this.style.color='rgb(62, 51, 119)'" ">Sitemap</a></li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2022, Developed By Jeevan Karki , Darkcream Theme</p>
+        </div>
+      </section>
+</body>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+   <!-- Swiper JS -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+    <script src="/pages/pagination.js" defer></script>
+   <!-- <script>
+     var swiper = new Swiper(".mySwiper", {
+       pagination: {
+         el: ".swiper-pagination",
+         type: "progressbar",
+       },
+       navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+       },
+     });
+   </script> -->
+</html>
+
+
+
