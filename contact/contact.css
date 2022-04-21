@@ -1,0 +1,342 @@
+#contact .contact-wrapper {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .contact-wrapper .contact-content {
+  line-height: 4rem;
+}
+
+#contact .contact-wrapper .contact-content h1 {
+  color: #3e3377;
+  font-size: 2.725rem;
+  font-size: 800;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#contact .contact-wrapper .contact-content p {
+  font-size: 1rem;
+  color: lightslategray;
+}
+
+#contact .contact-wrapper .main-contact {
+  font-size: 1rem;
+  width: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#contact .contact-wrapper .main-contact .container {
+  background-color: #1a1720;
+  border-radius: 5px;
+}
+
+#contact .contact-wrapper .main-contact .container .row {
+  padding: 0.5rem;
+}
+
+#contact .contact-wrapper .main-contact .left-contact {
+  border-radius: 3%;
+  background-image: url(/images/cricle1.svg);
+  background-position: 50% -7%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .title-content {
+  padding: 0 1.725rem;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .title-content h1 {
+  color: #dfe6e9;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .title-content p {
+  font-size: 1rem;
+  color: #dfe6e9;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .lists {
+  padding: 2rem 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .lists i {
+  color: #2ed573;
+  font-size: 1.5rem;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .lists .litem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .lists .litem i {
+  color: #2ed573;
+  font-size: 1.5rem;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .lists .litem p {
+  padding: 0 3rem;
+  font-size: 1.125rem;
+  color: #dfe6e9;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .lists .litem:hover i {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  color: #1a1720;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons {
+  padding: 1.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons i {
+  color: white;
+  font-size: 1.325rem;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .fb {
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .fb i {
+  color: white;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .fb:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .fb:hover i {
+  color: #4267B2;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .insta {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .insta i {
+  color: white;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .insta:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .insta:hover i {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .twitter {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .twitter i {
+  color: white;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .twitter:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .twitter:hover i {
+  color: #1DA1F2;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .linked {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .linked i {
+  color: white;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .linked:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+#contact .contact-wrapper .main-contact .left-contact .icons .linked:hover i {
+  color: #1DA1F2;
+}
+
+#contact .contact-wrapper .main-contact .forms {
+  color: #a29bfe;
+}
+
+#contact .contact-wrapper .main-contact .forms .first-name {
+  position: relative;
+  padding: 1rem;
+}
+
+#contact .contact-wrapper .main-contact .forms .first-name .label {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+}
+
+#contact .contact-wrapper .main-contact .forms .first-name .input {
+  position: relative;
+  top: 15px;
+  left: 0;
+  color: white;
+  padding: .5rem;
+  border: 2px solid #2ed573;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #a29bfe00;
+  width: 80%;
+  outline: none;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .forms .first-name .input:focus {
+  padding: 1rem 1rem 0;
+  width: 90%;
+}
+
+#contact .contact-wrapper .main-contact .forms .email {
+  position: relative;
+  padding: 2rem 1rem;
+}
+
+#contact .contact-wrapper .main-contact .forms .email .label {
+  position: absolute;
+}
+
+#contact .contact-wrapper .main-contact .forms .email .input {
+  position: relative;
+  top: 15px;
+  left: 0;
+  color: white;
+  padding: .5rem;
+  border: 2px solid #2ed573;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #a29bfe00;
+  width: 80%;
+  outline: none;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .forms .email .input:focus {
+  padding: 1rem 1rem 0;
+  width: 90%;
+}
+
+#contact .contact-wrapper .main-contact .forms .area {
+  position: relative;
+  color: #3e3377;
+}
+
+#contact .contact-wrapper .main-contact .forms .area .label {
+  position: absolute;
+  top: 0;
+  left: 2rem;
+}
+
+#contact .contact-wrapper .main-contact .forms .area .textarea {
+  color: white;
+  padding: .5rem;
+  border: 2px solid #2ed573;
+  background-color: #a29bfe00;
+  width: 100%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .forms .area .textarea:focus {
+  padding: 2rem 1rem 0;
+  outline: none;
+}
+
+#contact .contact-wrapper .main-contact .forms .button button {
+  color: #a29bfe;
+  font-size: 1.125rem;
+  font-weight: 530;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#contact .contact-wrapper .main-contact .forms .button button:hover {
+  color: #3e3377;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=contact.css.map */
