@@ -1,3 +1,18 @@
+html ::-moz-selection {
+  background: #a29bfe;
+  /* WebKit/Blink Browsers */
+}
+
+html ::selection {
+  background: #a29bfe;
+  /* WebKit/Blink Browsers */
+}
+
+html ::-moz-selection {
+  background: #a29bfe;
+  /* Gecko Browsers */
+}
+
 .main {
   color: #1a1720;
 }
@@ -1130,9 +1145,8 @@ a:hover {
   font-size: 1.125rem;
   font-weight: 600;
   position: absolute;
-  border-radius: 5px;
   border: 0;
-  border-bottom: 2px solid wheat;
+  border-bottom: 2px solid #a29bfe;
   top: 0;
   right: 10%;
   width: 40rem;
@@ -1140,18 +1154,18 @@ a:hover {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   padding: 0 2rem;
+  outline: none;
 }
 
 #footer .news-setteler .input-field input[type="email"]:focus {
   background: #1a1720;
-  border: 0;
+  outline: none;
 }
 
 #footer .news-setteler .input-field button {
   position: absolute;
   top: 0;
   right: 10%;
-  z-index: 1;
   background-color: #2ed573;
   color: #3e3377;
   font-weight: 500;

@@ -1,0 +1,46 @@
+.toggler p button {
+  padding-top: .8rem;
+  width: 100%;
+  border: 0;
+  background-color: #1a1720;
+  color: #2ed573;
+  border-radius: 0;
+  margin: 0;
+}
+
+.toggler p button:hover {
+  background-color: #1a1720;
+  color: #a29bfe;
+}
+
+.toggler p button:focus {
+  background-color: #1a1720;
+  color: #a29bfe;
+}
+
+.toggler p button p {
+  text-align: center;
+  font-size: 1.125rem;
+  float: left;
+}
+
+.toggler p button i {
+  font-size: 2rem;
+  float: right;
+}
+
+#collapseExample, #collapseExample1, #collapseExample2, #collapseExample3, #collapseExample4, #collapseExample5 {
+  margin-top: -2rem;
+  outline: 0;
+}
+
+#collapseExample:focus, #collapseExample1:focus, #collapseExample2:focus, #collapseExample3:focus, #collapseExample4:focus, #collapseExample5:focus {
+  outline: 0;
+}
+
+#collapseExample .card, #collapseExample1 .card, #collapseExample2 .card, #collapseExample3 .card, #collapseExample4 .card, #collapseExample5 .card {
+  background-color: #1a1720;
+  color: #2ed573;
+  border-radius: 0;
+}
+/*# sourceMappingURL=faq.css.map */
