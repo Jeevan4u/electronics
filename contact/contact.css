@@ -56,6 +56,8 @@
   background-position: 50% -7%;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-transform: skewY(15deg);
+          transform: skewY(15deg);
 }
 
 #contact .contact-wrapper .main-contact .left-contact .title-content {
