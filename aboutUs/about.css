@@ -1,0 +1,64 @@
+:root {
+  background-color: #f1f2f6;
+}
+
+#about {
+  background-color: #f1f2f6;
+  color: #3e3377;
+}
+
+#about .title-product {
+  text-align: center;
+}
+
+#about .title-product h1 {
+  display: inline-block;
+  color: #3e3377;
+  position: relative;
+  padding: 1.725rem;
+  z-index: 1;
+}
+
+#about .title-product h1::before {
+  position: absolute;
+  content: '';
+  top: 25%;
+  left: 40%;
+  z-index: -1;
+  height: 50px;
+  width: 50px;
+  background-color: #2ed573;
+  border-radius: 80% 30% 40% 80%/65% 50% 35% 60%;
+}
+
+#about .content-right .content-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#about .content-right p {
+  padding: 1rem 0;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1a1720;
+}
+
+#about .content-right .list-content .list {
+  padding: 0;
+  color: #1a1720;
+  font-size: 1rem;
+}
+
+#about .content-right .list-content .list .items {
+  padding: .3rem 0;
+  font-weight: 500;
+}
+/*# sourceMappingURL=about.css.map */

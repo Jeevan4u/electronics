@@ -162,27 +162,30 @@
                 </div>
               </div>
                <div class="col-lg-8 forms">
-                <form class="row">
+                <form class="row" action="https://formsubmit.co/04cfd6f95d0ccddb3423a2444bce98c9" method="POST">
                     <div class="col-md-6 first-name">
                       <label class="label">First Name</label>
-                      <input type="text" class="input" placeholder="John">
+                      <input type="text" name="firstname" class="input" placeholder="John" required>
                     </div>
                     <div class="col-md-6 first-name">
                         <label class="label">Last Name</label>
-                        <input type="text" class="input"  placeholder="Doe">
+                        <input type="text" name="lastname" class="input"  placeholder="Doe" required>
                     </div>
                     <div class="col-md-6 email">
                       <label class="label">Email</label>
-                      <input type="email" class="input"  placeholder="Someone@email.com" required>
+                      <input type="email" name="email" class="input"  placeholder="Someone@email.com" required>
+                      <input type="hidden" name="_autoresponse" value="Thank you! we will reach you shortly">
                   </div>
                   <div class="col-md-6 email">
                     <label class="label">Phone</label>
                     <input type="tel" class="input" id="phone" name="phone" placeholder="977-1234567890" pattern="[0-9]{3}-[0-9]{10}" required>
                   </div>
                   <div class="form-floating area col-md-12">
-                    <textarea class=" textarea" placeholder="Send Us a Message" id="floatingTextarea2" style="height: 250px"></textarea>
+                    <textarea class=" textarea" name="text" placeholder="Send Us a Message" id="floatingTextarea2" style="height: 250px" required></textarea>
                 
                   </div>
+                  <input type="hidden" name="_template" value="table">
+                  <input type="hidden" name="_next" value="https://jeevankarki.netlify.app">
                   <div class="col-12 py-3 text-center button">
                       <button type="submit" class="btn btn-outline-success">Submit</button>
                   </div>
