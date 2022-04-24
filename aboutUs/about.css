@@ -61,4 +61,15 @@
   padding: .3rem 0;
   font-weight: 500;
 }
+
+#about #services {
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  background-image: none;
+  background-color: #1a1720;
+}
+
+#about #services .container {
+  padding: 1rem 6rem 1rem;
+}
 /*# sourceMappingURL=about.css.map */

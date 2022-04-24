@@ -64,4 +64,14 @@ $button:#2ed573;
             }
         }
     }
+    #services{
+        border-top-right-radius: 5rem;
+        border-bottom-left-radius: 5rem;
+        background-image: none;
+        background-color: $main;
+      
+        .container{
+            padding: 1rem 6rem 1rem;
+        }
+    }
 }

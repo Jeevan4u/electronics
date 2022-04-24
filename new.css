@@ -53,6 +53,17 @@ a:hover {
   color: white;
 }
 
+#main .navbar-nav {
+  font-size: 1.125rem;
+  letter-spacing: 5px;
+  font-weight: 400;
+  width: 70%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 #main .new {
   background-color: white;
   margin: 0;
@@ -791,6 +802,8 @@ a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
 }
 
 #services .title-product {
@@ -1215,13 +1228,13 @@ a:hover {
 
 #footer .main-footer .footer-left .first .footer1 {
   list-style: none;
-  padding: 1rem 0;
+  padding: .25rem  0;
 }
 
 #footer .main-footer .footer-left .first .footer1 a {
   color: #2ed573;
   font-size: 1.225rem;
-  font-weight: 550;
+  font-weight: 500;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }

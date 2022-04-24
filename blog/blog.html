@@ -4,126 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog</title>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/csstest.css" />
-    <link rel="stylesheet" href="/new.css" />
-    <script
-      src="https://kit.fontawesome.com/29e669beab.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="/aboutUs/about.css">
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://kit.fontawesome.com/29e669beab.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- <link rel="stylesheet" href="swiper.css"> -->
+  <!-- <link rel="stylesheet" href="swiper-pagination.css"> -->
+  <link rel="stylesheet" href="/new.css" />
+  <link rel="stylesheet" href="/aboutUs/about.css" />
+  <link rel="stylesheet" href="/contact/contact.css" />
+  <link rel="stylesheet" href="/blog/blog.css">
 </head>
 <body>
-        <div id="main" class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                <svg
-                    width="162px"
-                    height="44px"
-                    viewBox="0 0 162 64"
-                    preserveAspectRatio="xMinYMid meet"
-                    alt="Deity logo"
-                    aria-label="Deity logo"
-                    style="height: inherit"
-                >
-                    <g fill="none" fill-rule="evenodd">
-                    <path
-                        d="M31.713 0l7.502 4.332v12.437l-7.442-4.228-16.909 9.774v19.547l16.904 9.774 16.915-9.774-.001-32.064L59.426 16v32L31.713 64 4 48V16L31.713 0zm.18 23.636l7.335 4.212v8.425l-7.33 4.212-7.337-4.212v-8.425l7.331-4.212z"
-                        fill="#A0CC3F"
-                    ></path>
-                    <path
-                        d="M78.883 22c6.61-.03 10.595 4.206 10.595 9.97 0 5.824-4.338 10.03-10.595 10.03H70V22.03l8.883-.03zm-4.043 4.47v11.06h4.043c3.364 0 5.696-2.206 5.696-5.56 0-3.587-2.273-5.5-5.696-5.5H74.84zM92.196 22h15.375v4.47H97.036v3.442h8.794v4.176h-8.794v3.441h10.535V42H92.196V22zm23.76 0v20h-4.84V22h4.84zm22.048 0v4.47h-7.112V42h-4.9V26.47h-7.112V22h19.124zM162 22l-8.617 12.441V42h-4.87v-7.559l-8.558-12.44h5.577l5.46 8.176L156.363 22H162z"
-                        fill="currentColor"
-                    ></path>
-                    </g>
-                </svg>
-                </a>
-                <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                >
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="/pages/shop.html">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="/contact/contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="/FAQ's/faq.html">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/blog/blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/aboutUs/about.html">About</a>
-                    </li>
-                </ul>
-                </div>
+    <div id="main" class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <svg
+                width="162px"
+                height="44px"
+                viewBox="0 0 162 64"
+                preserveAspectRatio="xMinYMid meet"
+                alt="Deity logo"
+                aria-label="Deity logo"
+                style="height: inherit"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <path
+                    d="M31.713 0l7.502 4.332v12.437l-7.442-4.228-16.909 9.774v19.547l16.904 9.774 16.915-9.774-.001-32.064L59.426 16v32L31.713 64 4 48V16L31.713 0zm.18 23.636l7.335 4.212v8.425l-7.33 4.212-7.337-4.212v-8.425l7.331-4.212z"
+                    fill="#A0CC3F"
+                  ></path>
+                  <path
+                    d="M78.883 22c6.61-.03 10.595 4.206 10.595 9.97 0 5.824-4.338 10.03-10.595 10.03H70V22.03l8.883-.03zm-4.043 4.47v11.06h4.043c3.364 0 5.696-2.206 5.696-5.56 0-3.587-2.273-5.5-5.696-5.5H74.84zM92.196 22h15.375v4.47H97.036v3.442h8.794v4.176h-8.794v3.441h10.535V42H92.196V22zm23.76 0v20h-4.84V22h4.84zm22.048 0v4.47h-7.112V42h-4.9V26.47h-7.112V22h19.124zM162 22l-8.617 12.441V42h-4.87v-7.559l-8.558-12.44h5.577l5.46 8.176L156.363 22H162z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/FAQ's/faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/aboutUs/about.html">About</a>
+                  </li>
+              </ul>
             </div>
-            </nav>
-            <div class="container-fluid new">
-            <div class="row">
-                <div
-                class="col-lg-12 left py-5 d-flex justify-content-center flex-column align-items-center"
-                >
-                <h2>Home > About US</h2>
-                <!-- <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                    dolorum dolorem dicta similique eaque necessitatibus facere minus
-                    id eveniet ipsam.
-                    </p> -->
-                <div class="col-md-12 text-center button">
-                    <button class="btn-custom">Browse</button>
-                </div>
-                </div>
-                <!-- <div class="col-lg-6 blend">
-                    <div id="m-mask" class="mask"></div>
-                </div>
-                </div> -->
+          </div>
+        </nav>
+        <div class="container-fluid new">
+          <div class="row">
+            <div
+              class="col-lg-12 left py-5 d-flex justify-content-center flex-column align-items-center"
+            >
+              <h2>Home > Contact</h2>
+              <!-- <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                  dolorum dolorem dicta similique eaque necessitatibus facere minus
+                  id eveniet ipsam.
+                </p> -->
+              <div class="col-md-12 text-center button">
+                <button class="btn-custom">Browse</button>
+              </div>
             </div>
-            </div>
+            <!-- <div class="col-lg-6 blend">
+                <div id="m-mask" class="mask"></div>
+              </div>
+            </div> -->
+          </div>
         </div>
-      <section id="lol" style="background-color: #f1f2f6;">
+    </div>
+      <section id="lol" style="background-color: #dfe6e9;">
         <svg
           class="curves"
           xmlns="http://www.w3.org/2000/svg"
@@ -135,123 +121,232 @@
             d="M0,96L24,133.3C48,171,96,245,144,245.3C192,245,240,171,288,128C336,85,384,75,432,58.7C480,43,528,21,576,26.7C624,32,672,64,720,96C768,128,816,160,864,149.3C912,139,960,85,1008,90.7C1056,96,1104,160,1152,165.3C1200,171,1248,117,1296,128C1344,139,1392,213,1416,250.7L1440,288L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
           ></path>
         </svg>
-      </section>
-      <section id="about">
         <div class="title-product">
-            <h1>Know Us</h1>
-        </div>
+            <h1>Feature Product</h1>
+          </div>
+      </section>
+      <section id="blog" style="background-color: #dfe6e9;" >
         <div class="container">
-            <div class="row py-2">
-                <div class="col-lg-6 img-left">
-                    <div class="img-container" >
-                        <img src="/images/camera5.webp" alt="" style="max-width: 100%; object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 content-right">
-                    <div class="content-wrapper">
-                            <div class="title-content">
-                                <h2>We Have Everything You Need ?</h2>
-                                <p>Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12 p-0 left-product">
+                            <div class="first-prodcut-wrap">
+                                <div class="title">
+                                    <h4>New Products</h4>
+                                </div>
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/earbud1.png" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet.</h5>
+                                        <p>$22.00</p>
+                                        <div class="icons">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        
+                                        </div>
+                                         <!-- Icons -->
+                                    </div>
+                                </div>
                             </div>
-                            <div class="list-content">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                                 <ul class="list">
-                                     <li class="items">Lorem ipsum, or lipsum as it is sometimes known</li>
-                                     <li class="items">Dummy text used in laying out print, graphic or web designs</li>
-                                     <li class="items">The passage is attributed to.</li>
-                                     <li class="items">Proin molestie egestas orci ac suscipit risus posuere loremou.</li>
-                                     <li class="items">Dummy text used in laying out print, graphic or web designs</li>
-                                 </ul>
+                            <div class="first-prodcut-wrap">
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/watch.png" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet.</h5>
+                                        <p>$22.00</p>
+                                        <div class="icons">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        
+                                        </div>
+                                         <!-- Icons -->
+                                    </div>
+                                </div>
                             </div>
-                    </div>
-                </div>
-                
-            </div>
-
-            <section id="services">
-                <div class="title-product">
-                  <h1>We Provide</h1>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="service-wrapper">
-                        <div class="row sub-row">
-                          <div class="col-lg-3 service-img-wrapper">
-                            <img loading ="lazy"src="/images/free-shipping.png" alt="" />
-                          </div>
-                          <div class="col-lg-9 services-content-wrapper">
-                            <h2>Free Delivery</h2>
-                            <p>
-                              Bring to the table win-win survival strategies to ensure
-                              proactive.
-                            </p>
-                          </div>
+                            <div class="first-prodcut-wrap">
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/laptop.png" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet.</h5>
+                                        <p>$22.00</p>
+                                        <div class="icons">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        
+                                        </div>
+                                         <!-- Icons -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-prodcut-wrap">
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/earbud1.png" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet.</h5>
+                                        <p>$22.00</p>
+                                        <div class="icons">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        
+                                        </div>
+                                         <!-- Icons -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="service-wrapper">
-                        <div class="row sub-row">
-                          <div class="col-lg-3 service-img-wrapper">
-                            <img loading ="lazy"src="/images/voucher.png" alt="" />
-                          </div>
-                          <div class="col-lg-9 services-content-wrapper">
-                            <h2>Free Delivery</h2>
-                            <p>
-                              Bring to the table win-win survival strategies to ensure
-                              proactive.
-                            </p>
-                          </div>
+                        <div class="col-lg-12 zoom p-0">
+                            <section id="big-discount">
+                                  <div class="img-container-disc">
+                                    <img loading ="lazy" src="/images/lappy4.jpg" alt="" />
+                                    <div class="big-discount-content-wrapper">
+                                      <h1>Big Discount</h1>
+                                      <p>Save Up To 80% Off</p>
+                                      <br />
+                                      <button><a href="#">Shop Now</a></button>
+                                    </div>
+                                    <div class="layer"></div>
+                                  </div>
+                                
+                              </section>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="service-wrapper">
-                        <div class="row sub-row">
-                          <div class="col-lg-3 service-img-wrapper">
-                            <img loading ="lazy"src="/images/money.png" alt="" />
-                          </div>
-                          <div class="col-lg-9 services-content-wrapper">
-                            <h2>Free Delivery</h2>
-                            <p>
-                              Bring to the table win-win survival strategies to ensure
-                              proactive.
-                            </p>
-                          </div>
+                        <div class="col-lg-12 p-0 left-product">
+                            <div class="first-prodcut-wrap">
+                                <div class="title">
+                                    <h4>Simmilar Blog</h4>
+                                </div>
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/blog2.webp" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, minus.</h5>
+                                        <p style="display: inline-block; border-bottom: 4px solid #2ed573;" ><a href="/blog/blog1.html">Read More</a></p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-prodcut-wrap">
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/ps4.jpg" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, minus.</h5>
+                                        <p style="display: inline-block; border-bottom: 4px solid #2ed573;" ><a href="/blog/blog2.html">Read More</a></p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-prodcut-wrap">
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/camera1.jpg" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, minus.</h5>
+                                        <p style="display: inline-block; border-bottom: 4px solid #2ed573;" ><a href="#">Read More</a></p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first-prodcut-wrap">
+                                <div class="row product-wrap">
+                                    <div class="col-lg-3">
+                                        <div class="img-wrapper py-2">
+                                            <img src="/images/all.jpg" style="max-width: 100%;"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 product-text">
+                                        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, minus.</h5>
+                                        <p style="display: inline-block; border-bottom: 4px solid #2ed573;" ><a href="#">Read More</a></p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                   
                 </div>
-              </section>
-            <div class="row py-4">
-                <div class="col-lg-6 img-left order-1">
-                    <div class="img-container" >
-                        <img src="/images/aboutwatch.webp" alt="" style="max-width: 100%; object-fit: cover;">
+                <div class="col-lg-8">  
+                     <div class="container">
+                    <div class="title-wrap d-flex justify-content-between " style="
+                    width: 90%;
+                    margin: auto;
+                ">
+                        <h2>Christmas Sale is here</h2> 
+                        <div class="date d-flex justify-content-between" style="width: 30%;">
+                            <p class="fw-bolder fs-5" ><i class="fa-regular fa-user"> User log  </i></p>
+                            <p class="fw-bolder fs-5"><i class="fa-regular fa-calendar-days"> Jan 2022</i></p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 content-right order-0">
-                    <div class="content-wrapper">
-                            <div class="title-content">
-                                <h2>We Have Everything You Need ?</h2>
-                                <p>Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                    <div class="row image-roow">
+                        <div class="col-lg-12">
+                            <div class="img-wrap d-flex justify-content-center">
+                                <img src="/images/b1.webp" style="max-width: 100%; object-fit:cover;" alt="">
                             </div>
-                            <div class="list-content">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                                 <ul class="list">
-                                     <li class="items">Lorem ipsum, or lipsum as it is sometimes known</li>
-                                     <li class="items">Dummy text used in laying out print, graphic or web designs</li>
-                                     <li class="items">The passage is attributed to.</li>
-                                     <li class="items">Proin molestie egestas orci ac suscipit risus posuere loremou.</li>
-                                     <li class="items">Dummy text used in laying out print, graphic or web designs</li>
-                                 </ul>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="container py-4 description" >
+                        <div class="about-image">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure cumque Voluptate excepturi tempore fuga. Error, maiores.</p>
+                        </div>
+                        <div class="sample-ul py-3">
+                            <h4>Sample Unordered List</h4>
+                            <ul class="list-item">
+                                <li class="item">Comodous in tempor ullamcorper miaculis</li>
+                                <li class="item">Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                                <li class="item">Divamus sit amet purus justo.</li>
+                                <li class="item">Proin molestie egestas orci ac suscipit risus posuere loremou.</li>
+                            </ul>
+                        </div>
+                        <div class="sample-ul py-3">
+                            <h4>Sample Unordered List</h4>
+                            <ol class="list-item-ol">
+                                <li class="item">Comodous in tempor ullamcorper miaculis</li>
+                                <li class="item">Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                                <li class="item">Divamus sit amet purus justo.</li>
+                                <li class="item">Proin molestie egestas orci ac suscipit risus posuere loremou.</li>
+                            </ol>
+                        </div>
+                        <div class="sample-text py-3">
+                            <h4>Sample Unordered List</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae libero animi asperiores dolore nobis fugit quam commodi, ipsum nam velit officia eos eum incidunt numquam! Quaerat vel a vitae at dolor sunt quae modi esse libero, eligendi magni cumque repellat et possimus maxime tenetur ut dignissimos saepe! Reprehenderit temporibus voluptate tenetur quo minima distinctio nihil eligendi eum odit suscipit error hic consequatur praesentium odio fuga qui sapiente, tempore velit! Nihil obcaecati doloremque facere consequatur dignissimos. Deserunt facere quam possimus!</p>
+    
+                        </div>
+                        <div class="icons">
+                           <a href="# "><i class="fa-brands fa-facebook-f"></i>  </a>
+                            <a href="# "><i class="fa-brands fa-instagram"></i></a>
+                            <a href="# "><i class="fa-brands fa-twitter"></i></a>
+                           <a href="# "><i class="fa-solid fa-envelope"></i></a>
+                            <a href="# "><i class="fa-brands fa-google"></i></a>
+                            <a href="# "><i class="fa-brands fa-google-play"></i></a>
+                            <a href="# "><i class="fa-solid fa-microchip"></i></a>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                
             </div>
         </div>
+        
       </section>
       <section id="footer">
         <div class="news-setteler">
@@ -468,22 +563,22 @@
       </section>
 </body>
 <script
-src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-></script>
-<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <!-- <script
 src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
 integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
 crossorigin="anonymous"
 referrerpolicy="no-referrer"
-></script>
+></script> -->
 
-<script src="/owl-feautre.js"></script>
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-crossorigin="anonymous"
-></script>
+  <!-- <script src="/owl-feautre.js"></script> -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
 </html>
