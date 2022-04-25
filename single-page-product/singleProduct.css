@@ -1,0 +1,100 @@
+#singleProduct .lt .swiper .swiper-button-next {
+  height: 60px;
+  width: 60px;
+  top: 45%;
+  background-color: #2ed573;
+  color: #1a1720;
+  opacity: .725;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+#singleProduct .lt .swiper .swiper-button-prev {
+  height: 70px;
+  width: 70px;
+  top: 45%;
+  background-color: #2ed573;
+  opacity: .725;
+  color: #1a1720;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+#singleProduct .rt {
+  color: #3e3377;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#singleProduct .rt .inline {
+  display: inline-block;
+}
+
+#singleProduct .rt .stocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+
+#singleProduct .rt .stocks h1 {
+  font-size: 1.225rem;
+}
+
+#singleProduct .rt .stocks .inStore {
+  padding-right: 3rem;
+}
+
+#singleProduct .rt .row .sub .dropdown {
+  margin: 1.5rem 0;
+  background-color: #dfe6e9 !important;
+}
+
+#singleProduct .rt .row .sub .dropdown button {
+  background-color: #1a1720;
+}
+
+#singleProduct .rt .row .sub .dropdown a {
+  color: #3e3377;
+  font-weight: 600;
+}
+
+#singleProduct .rt .row .sub .spacing {
+  padding: 4rem 0;
+}
+
+#singleProduct .rt .row .sub .spacing .text a {
+  background-color: #1a1720;
+  color: #a29bfe;
+  padding: .725rem;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#singleProduct .rt .row .sub .spacing .text:hover a {
+  background-color: #2ed573;
+  color: #3e3377;
+  letter-spacing: 2px;
+}
+
+#singleProduct .rt .row .sub .category h5 {
+  font-size: .925rem;
+}
+
+#singleProduct .rt .row .sub .social {
+  padding: 3rem 0;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.125rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=singleProduct.css.map */

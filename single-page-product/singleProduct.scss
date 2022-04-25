@@ -1,0 +1,110 @@
+$primary:#a29bfe;
+$seconday:#dfe6e9;
+$main:#1a1720;
+$text:rgb(62, 51, 119);
+$span:#e7f26f;
+$button:#2ed573;
+
+#singleProduct{
+
+    .lt{
+        .swiper{
+            .swiper-button-next{
+                height: 60px;
+                width: 60px;
+                top: 45%;
+                background-color: $button;
+                color: $main;
+                opacity: .725;
+                clip-path: circle();
+               
+                // padding: 1rem;
+            }
+            .swiper-button-prev{
+                height: 70px;
+                width: 70px;
+                top: 45%;
+                background-color: $button;
+                opacity: .725;
+                color: $main;
+                clip-path: circle();
+               
+                // padding: 1rem;
+            }
+        }
+    }
+    .rt{
+        color: $text;
+        font-weight: 500;
+        letter-spacing: 1px;
+        .inline{
+            display: inline-block;
+        }
+
+        .stocks{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            border-bottom: 2px solid gray;
+            h1{
+                font-size: 1.225rem;
+            }
+            .inStore{
+                padding-right: 3rem;
+            }
+        }
+        
+        .row{
+            .sub{
+                .dropdown{
+                    margin: 1.5rem 0;
+                    background-color: $seconday !important;
+                    button{
+                        background-color: $main;
+
+                   
+                    }
+                    a{
+                        color: $text;
+                        font-weight: 600;
+                    }
+                }
+
+                .spacing{
+                    padding: 4rem 0;
+
+                    .text{
+                        a{
+                            background-color: $main;
+                            color: $primary;
+                            padding: .725rem;
+                            transition: all .3s ease-in-out;
+
+                        }
+
+                        &:hover{
+                            a{
+                                background-color: $button;
+                                color: $text;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .category{
+                    h5{
+                        font-size: .925rem;
+                    }
+                }
+                .social{
+                    padding: 3rem 0;
+                    width: 80%;
+                    margin: auto;
+                    display: flex;
+                    font-size: 1.125rem;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
