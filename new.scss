@@ -68,7 +68,10 @@ a{
         justify-content: space-between;
     
     }
-
+    .navbar-light .navbar-toggler {
+        color: rgba(95, 37, 165, 0);
+        border-color: rgba(0,0,0,.1);
+    }
     .new{
         background-color: white;
         margin: 0;
@@ -779,6 +782,7 @@ a{
     background-position: center center;
     background-repeat: no-repeat;
     padding: 4rem 0; 
+    padding-bottom: 12rem;
     height: 100%;
     width: 100%;
 

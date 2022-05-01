@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #dfe6e9;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -21,7 +21,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background:#dfe6e9;
 
   /* Center slide text vertically */
   display: -webkit-box;
